@@ -1,0 +1,31 @@
+:root {
+	--slack-color: #3f0f40;
+	--slack-color-hover: #340e36;
+	--slack-color-semi-light: #421f44;
+	--slack-color-light: #49274b;
+	--white-color: white;
+	--lightgray: lightgray;
+	--lightgray-light: #f8f8f8;
+	--gray: gray;
+	--green: #0a8d48;
+	--dark-green: #095e30;
+}
+
+body {
+	overflow: hidden;
+}
+
+.app__body {
+	display: flex;
+	height: 100vh;
+}
+
+.app__main {
+	padding: 20px;
+	flex: 0.7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
